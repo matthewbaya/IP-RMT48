@@ -1,0 +1,182 @@
+[
+    {
+        "username": "john_doe",
+        "email": "john.doe@example.com",
+        "password": "securePassword123",
+        "displayName": "John Doe",
+        "gender": "Male",
+        "bio": "Hi, I'm John! I love hiking, photography, and spending time with my golden retriever.",
+        "imageUrl": "https://images.unsplash.com/photo-1611403119860-57c4937ef987?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YXNpYW4lMjBtZW58ZW58MHx8MHx8fDA%3D"
+    },
+    {
+        "username": "jane_smith",
+        "email": "jane.smith@example.com",
+        "password": "anotherSecurePassword456",
+        "displayName": "Jane Smith",
+        "gender": "Female",
+        "bio": "Hello! I'm Jane, a graphic designer and cat lover. Whiskers and I enjoy cozy evenings with a good book.",
+        "imageUrl": "https://images.unsplash.com/photo-1573496800808-56566a492b63?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YXNpYW4lMjB3b21lbnxlbnwwfHwwfHx8MA%3D%3D"
+    },
+    {
+        "username": "mike_jones",
+        "email": "mike.jones@example.com",
+        "password": "mikePassword789",
+        "displayName": "Mike Jones",
+        "gender": "Male",
+        "bio": "Mike here! I'm a software developer and gamer. I love coding and playing the latest RPGs.",
+        "imageUrl": "https://plus.unsplash.com/premium_photo-1661774991416-ee14a1bc0d30?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YXNpYW4lMjBtZW58ZW58MHx8MHx8fDA%3D"
+    },
+    {
+        "username": "sara_lee",
+        "email": "sara.lee@example.com",
+        "password": "saraSecurePass101",
+        "displayName": "Sara Lee",
+        "gender": "Female",
+        "bio": "I'm Sara, a foodie and travel enthusiast. I enjoy exploring new places and trying local cuisines.",
+        "imageUrl": "https://images.unsplash.com/photo-1584611139207-9cf4fed64188?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YXNpYW4lMjB3b21lbnxlbnwwfHwwfHx8MA%3D%3D"
+    },
+    {
+        "username": "alex_brown",
+        "email": "alex.brown@example.com",
+        "password": "alexPassword234",
+        "displayName": "Alex Brown",
+        "gender": "Male",
+        "bio": "Alex here! I am passionate about music and play the guitar in a band. Let's rock!",
+        "imageUrl": "https://images.unsplash.com/photo-1552358155-515e264cb8b8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8YXNpYW4lMjBtZW58ZW58MHx8MHx8fDA%3D"
+    },
+    {
+        "username": "emily_white",
+        "email": "emily.white@example.com",
+        "password": "emilySecurePass567",
+        "displayName": "Emily White",
+        "gender": "Female",
+        "bio": "Hi, I'm Emily! A yoga instructor and wellness advocate. I believe in living a balanced life.",
+        "imageUrl": "https://images.unsplash.com/photo-1565019011521-b0575cbb57c8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGFzaWFuJTIwd29tZW58ZW58MHx8MHx8fDA%3D"
+    },
+    {
+        "username": "chris_black",
+        "email": "chris.black@example.com",
+        "password": "chrisPassword890",
+        "displayName": "Chris Black",
+        "gender": "Male",
+        "bio": "I'm Chris, a tech enthusiast and blogger. I love writing about the latest in tech and innovation.",
+        "imageUrl": "https://images.unsplash.com/photo-1487309078313-fad80c3ec1e5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YXNpYW4lMjBtZW58ZW58MHx8MHx8fDA%3D"
+    },
+    {
+        "username": "anna_green",
+        "email": "anna.green@example.com",
+        "password": "annaSecurePass345",
+        "displayName": "Anna Green",
+        "gender": "Female",
+        "bio": "Hello, I'm Anna! A teacher and nature lover. I enjoy spending time outdoors and educating young minds.",
+        "imageUrl": "https://images.unsplash.com/photo-1475823678248-624fc6f85785?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGFzaWFuJTIwd29tZW58ZW58MHx8MHx8fDA%3D"
+    },
+    {
+        "username": "david_clark",
+        "email": "david.clark@example.com",
+        "password": "davidPassword678",
+        "displayName": "David Clark",
+        "gender": "Male",
+        "bio": "David here! I am a professional photographer with a passion for capturing the beauty of the world.",
+        "imageUrl": "https://images.unsplash.com/photo-1552168212-9ceb61083ba0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGFzaWFuJTIwbWVufGVufDB8fDB8fHww"
+    },
+    {
+        "username": "laura_king",
+        "email": "laura.king@example.com",
+        "password": "lauraSecurePass901",
+        "displayName": "Laura King",
+        "gender": "Female",
+        "bio": "Hi, I'm Laura! A fitness trainer who loves helping people achieve their health goals.",
+        "imageUrl": "https://images.unsplash.com/photo-1581044777550-4cfa60707c03?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGFzaWFuJTIwd29tZW58ZW58MHx8MHx8fDA%3D"
+    },
+    {
+        "username": "tom_walker",
+        "email": "tom.walker@example.com",
+        "password": "tomPassword234",
+        "displayName": "Tom Walker",
+        "gender": "Male",
+        "bio": "I'm Tom, a chef who loves experimenting with new recipes and flavors. Let's cook together!",
+        "imageUrl": "https://images.unsplash.com/photo-1601061971886-dc64398b7f40?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGFzaWFuJTIwbWVufGVufDB8fDB8fHww"
+    },
+    {
+        "username": "megan_hill",
+        "email": "megan.hill@example.com",
+        "password": "meganSecurePass567",
+        "displayName": "Megan Hill",
+        "gender": "Female",
+        "bio": "Hello! I'm Megan, a digital marketer who enjoys connecting with people and creating engaging content.",
+        "imageUrl": "https://images.unsplash.com/photo-1606877096964-c306a05f4d6f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGFzaWFuJTIwd29tZW58ZW58MHx8MHx8fDA%3D"
+    },
+    {
+        "username": "brian_adams",
+        "email": "brian.adams@example.com",
+        "password": "brianPassword890",
+        "displayName": "Brian Adams",
+        "gender": "Male",
+        "bio": "Brian here! An avid reader and writer. I love getting lost in books and creating my own stories.",
+        "imageUrl": "https://images.unsplash.com/photo-1585923491671-0ced430efe9c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGFzaWFuJTIwbWVufGVufDB8fDB8fHww"
+    },
+    {
+        "username": "olivia_evans",
+        "email": "olivia.evans@example.com",
+        "password": "oliviaSecurePass123",
+        "displayName": "Olivia Evans",
+        "gender": "Female",
+        "bio": "Hi, I'm Olivia! A fashion designer who enjoys creating unique and stylish outfits.",
+        "imageUrl": "https://images.unsplash.com/photo-1515734674582-29010bb37906?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGFzaWFuJTIwd29tZW58ZW58MHx8MHx8fDA%3D"
+    },
+    {
+        "username": "mark_wilson",
+        "email": "mark.wilson@example.com",
+        "password": "markPassword456",
+        "displayName": "Mark Wilson",
+        "gender": "Male",
+        "bio": "I'm Mark, an entrepreneur who loves building new ventures and solving problems.",
+        "imageUrl": "https://images.unsplash.com/photo-1605037627329-0252b8dd44ff?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGFzaWFuJTIwbWVufGVufDB8fDB8fHww"
+    },
+    {
+        "username": "lisa_jones",
+        "email": "lisa.jones@example.com",
+        "password": "lisaSecurePass789",
+        "displayName": "Lisa Jones",
+        "gender": "Female",
+        "bio": "Hello! I'm Lisa, a travel blogger sharing my adventures and tips for exploring the world.",
+        "imageUrl": "https://images.unsplash.com/photo-1526413232644-8a40f03cc03b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjZ8fGFzaWFuJTIwd29tZW58ZW58MHx8MHx8fDA%3D"
+    },
+    {
+        "username": "steve_martin",
+        "email": "steve.martin@example.com",
+        "password": "stevePassword123",
+        "displayName": "Steve Martin",
+        "gender": "Male",
+        "bio": "Steve here! A sports enthusiast and coach. I enjoy playing and watching various sports.",
+        "imageUrl": "https://images.unsplash.com/photo-1543610892-0b1f7e6d8ac1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fGFzaWFuJTIwbWVufGVufDB8fDB8fHww"
+    },
+    {
+        "username": "susan_lee",
+        "email": "susan.lee@example.com",
+        "password": "susanSecurePass456",
+        "displayName": "Susan Lee",
+        "gender": "Female",
+        "bio": "Hi, I'm Susan! A passionate baker who loves creating delicious and beautiful pastries.",
+        "imageUrl": "https://images.unsplash.com/photo-1533743409942-b91130480a7a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzJ8fGFzaWFuJTIwd29tZW58ZW58MHx8MHx8fDA%3D"
+    },
+    {
+        "username": "kevin_turner",
+        "email": "kevin.turner@example.com",
+        "password": "kevinPassword789",
+        "displayName": "Kevin Turner",
+        "gender": "Male",
+        "bio": "Kevin here! A musician and songwriter who loves creating and performing music.",
+        "imageUrl": "https://images.unsplash.com/photo-1523452617300-93ebbf63ed61?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGFzaWFuJTIwbWVufGVufDB8fDB8fHww"
+    },
+    {
+        "username": "rachel_moore",
+        "email": "rachel.moore@example.com",
+        "password": "rachelSecurePass101",
+        "displayName": "Rachel Moore",
+        "gender": "Female",
+        "bio": "Hello! I'm Rachel, a painter who enjoys bringing colors and imagination to life on canvas.",
+        "imageUrl": "https://images.unsplash.com/photo-1534083220759-4c3c00112ea0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTZ8fGFzaWFuJTIwd29tZW58ZW58MHx8MHx8fDA%3D"
+    }
+]

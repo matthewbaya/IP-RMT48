@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tinder-like Sidebar</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@1.14.0/dist/full.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+    <div class="flex">
+        <!-- Sidebar -->
+        <div class="w-64 h-screen bg-white shadow-md">
+            <div class="p-4">
+                <h1 class="text-2xl font-bold">Tinder</h1>
+            </div>
+            <ul class="menu p-4 overflow-y-auto">
+                <li class="menu-title">
+                    <span>Menu</span>
+                </li>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Messages</a></li>
+                <li><a href="#">Matches</a></li>
+                <li><a href="#">Profile</a></li>
+                <li><a href="#">Settings</a></li>
+            </ul>
+        </div>
+
+        <!-- Main Content -->
+        <div class="flex-1 p-10">
+            <h2 class="text-3xl font-bold">Welcome to Tinder</h2>
+            <p class="mt-4">Start swiping and find your match!</p>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/alpinejs@2.8.2/dist/alpine.js" defer></script>
+</body>
+</html>
