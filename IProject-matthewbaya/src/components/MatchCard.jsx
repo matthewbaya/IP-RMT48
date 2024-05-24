@@ -1,7 +1,7 @@
 export default function MatchCard({ user }) {
   return (
     <>
-      <div className="flex-1 p-10">
+      <div className="flex-1 p-10 h-3/4">
         <div className="w-80 mx-auto mt-8 rounded-lg shadow-md overflow-hidden">
           <img
             src={user.imageUrl}

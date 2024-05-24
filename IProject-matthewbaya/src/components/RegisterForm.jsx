@@ -1,8 +1,55 @@
+import { useState } from "react";
+import axios from "axios";
+import { useNavigate } from "react-router-dom";
+
 export default function RegisterForm() {
+  const navigate = useNavigate();
+  const [username, setUsername] = useState("");
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [displayName, setDisplayName] = useState("");
+  const [gender, setGender] = useState("");
+  const [bio, setBio] = useState("");
+  const [imageUrl, setImageUrl] = useState("");
+
+  async function registerUser() {
+    try {
+      let { data } = await axios({
+        method: "POST",
+        url: "http://localhost:3000/register",
+        data: {
+          username,
+          email,
+          password,
+          displayName,
+          gender,
+          bio,
+          imageUrl,
+        },
+      });
+      navigate("/login");
+      console.log(data);
+    } catch (error) {
+      console.log(error);
+    }
+  }
+  const handleRegister = async (e) => {
+    e.preventDefault();
+    registerUser();
+  };
   return (
     <>
       <div className="form-control">
-        <form action="">
+        <form action="" onSubmit={handleRegister}>
+          <label className="input input-bordered flex items-center gap-2 mb-5">
+            <input
+              onChange={(e) => setUsername(e.target.value)}
+              type="text"
+              className="grow"
+              name="displayName"
+              placeholder="username"
+            />
+          </label>
           <label className="input input-bordered flex items-center gap-2 mb-5 mt-5">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -13,7 +60,12 @@ export default function RegisterForm() {
               <path d="M2.5 3A1.5 1.5 0 0 0 1 4.5v.793c.026.009.051.02.076.032L7.674 8.51c.206.1.446.1.652 0l6.598-3.185A.755.755 0 0 1 15 5.293V4.5A1.5 1.5 0 0 0 13.5 3h-11Z" />
               <path d="M15 6.954 8.978 9.86a2.25 2.25 0 0 1-1.956 0L1 6.954V11.5A1.5 1.5 0 0 0 2.5 13h11a1.5 1.5 0 0 0 1.5-1.5V6.954Z" />
             </svg>
-            <input type="text" className="grow" placeholder="Email" />
+            <input
+              type="text"
+              className="grow"
+              placeholder="Email"
+              onChange={(e) => setEmail(e.target.value)}
+            />
           </label>
           <label className="input input-bordered flex items-center gap-2 mb-5">
             <svg
@@ -28,7 +80,12 @@ export default function RegisterForm() {
                 clipRule="evenodd"
               />
             </svg>
-            <input type="password" className="grow" />
+            <input
+              placeholder="Password"
+              type="password"
+              className="grow"
+              onChange={(e) => setPassword(e.target.value)}
+            />
           </label>
           <label className="input input-bordered flex items-center gap-2 mb-5">
             <input
@@ -36,9 +93,13 @@ export default function RegisterForm() {
               className="grow"
               name="displayName"
               placeholder="Display Name"
+              onChange={(e) => setDisplayName(e.target.value)}
             />
           </label>
-          <select className="select select-bordered w-full max-w-xs mb-5">
+          <select
+            className="select select-bordered w-full max-w-xs mb-5"
+            onChange={(e) => setGender(e.target.value)}
+          >
             <option disabled selected>
               What's your gender?
             </option>
@@ -50,6 +111,7 @@ export default function RegisterForm() {
               className="textarea textarea-bordered grow"
               name="bio"
               placeholder="Bio"
+              onChange={(e) => setBio(e.target.value)}
             />
           </label>
           <label className="input input-bordered flex items-center gap-2 mb-5">
@@ -58,9 +120,10 @@ export default function RegisterForm() {
               className="grow"
               name="imageUrl"
               placeholder="Image URL"
+              onChange={(e) => setImageUrl(e.target.value)}
             />
           </label>
-          <button className="btn">Register</button>
+          <button className="btn mb-5">Register</button>
         </form>
       </div>
     </>

@@ -1,4 +1,4 @@
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 
 export default function Sidebar() {
   const navigate = useNavigate();
@@ -22,11 +22,11 @@ export default function Sidebar() {
               Home
             </a>
           </li>
+
           <li>
-            <a href="#">Messages</a>
-          </li>
-          <li>
-            <a href="#">Matches</a>
+            <Link to="/matches" href="#">
+              Matches
+            </Link>
           </li>
           <li>
             <a href="#">Profile</a>

@@ -60,7 +60,7 @@ export default function LoginForm() {
     <>
       <div className="form-control">
         <form onSubmit={handleLogin}>
-          <label className="input input-bordered flex items-center gap-2">
+          <label className="input input-bordered flex items-center gap-2 mb-5">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 16 16"
@@ -77,7 +77,7 @@ export default function LoginForm() {
               onChange={(e) => setEmail(e.target.value)}
             />
           </label>
-          <label className="input input-bordered flex items-center gap-2">
+          <label className="input input-bordered flex items-center gap-2 mb-5">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 16 16"
@@ -94,14 +94,15 @@ export default function LoginForm() {
               type="password"
               name="password"
               className="grow"
+              placeholder="Password"
               onChange={(e) => setPassword(e.target.value)}
             />
           </label>
-          <button className="btn">Login</button>
+          <button className="btn mb-5">Login</button>
         </form>
       </div>
-      <div>or</div>
-      <div id="buttonDiv"></div>
+      <div className="mb-5">Or sign-in with</div>
+      <div id="buttonDiv" className="mb-5"></div>
     </>
   );
 }
